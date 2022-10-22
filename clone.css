@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(26, 148, 255);
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.container__logo {
+    width: 120px;
+    height: inherit;
+    margin-left: 55px;
+    justify-content: space-between;
+}
+
+.container__logo--tiki {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    margin: 70px 100px;
+}
