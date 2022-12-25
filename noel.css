@@ -1,0 +1,80 @@
+            body {
+                background-image: url(https://img.freepik.com/premium-photo/winter-holiday-xmas-theme-flat-lay-new-year-noel-white-christmas-gifts-red-ribbons-ornaments-blue-background-top-view_372999-5464.jpg?w=2000);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .lathong1 {
+                width: 0;
+                height: 0;
+                border-left: 200px solid transparent;
+                border-right: 200px solid transparent;
+                border-bottom: 400px solid green;
+                margin-left: 35%;
+                margin-top: 300px;
+                position: relative;
+            }
+            
+            .lathong2 {
+                width: 0;
+                height: 0;
+                border-left: 200px solid transparent;
+                border-right: 200px solid transparent;
+                border-bottom: 300px solid green;
+                margin-left: 35%;
+                margin-top: -230px;
+            }
+            
+            .gocthong {
+                position: absolute;
+                width: 80px;
+                height: 100px;
+                background-color: rgb(175, 105, 13);
+                margin-left: 46%;
+            }
+            
+            .btn {
+                margin-left: 70%;
+                margin-top: -100px;
+                width: 200px;
+                height: 100px;
+                font-size: 20px;
+                border-radius: 45%;
+                background-color: rgb(230, 79, 9);
+            }
+            
+            .btn:hover {
+                opacity: 0.7;
+                cursor: pointer;
+            }
+            
+            .lathong1:after {
+                content: "";
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                background-color: yellow;
+                border-radius: 45%;
+                transform: translate(-22px, -10px);
+            }
+            
+            .snowman1 {
+                width: 100px;
+                height: 100px;
+                border-radius: 45%;
+                background-color: white;
+                margin-top: -300px;
+                margin-left: 125px;
+                box-sizing: border-box;
+                border: none;
+            }
+            
+            .snowman2 {
+                width: 150px;
+                height: 150px;
+                border-radius: 45%;
+                background-color: white;
+                margin-left: 100px;
+                box-sizing: border-box;
+                border: none;
+            }

@@ -12,17 +12,55 @@ body {
 .container__logo {
     width: 120px;
     height: inherit;
-    margin-left: 55px;
+    margin-left: 40px;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .container__logo--tiki {
-    height: 60%;
+    height: 40%;
     width: 70%;
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 
-.video {
-    margin: 70px 100px;
+.container__top {
+    height: 50%;
+    border: 1px solid blue;
+    padding-top: 10px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container__top__search {
+    height: 100%;
+    width: 826 px;
+}
+
+.seacrch {
+    width: 500 px;
+}
+
+.searchsubmit {
+    width: 120px;
+}
+
+.searchsubmit:hover {
+    cursor: pointer;
+}
+
+.container__top__log {
+    width: 150px;
+    border: 1px solid white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.container__top__log__top {
+    display: flex;
+    flex-direction: column;
 }
